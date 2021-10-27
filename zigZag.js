@@ -9,7 +9,7 @@ canvas.height = size * dpr;
 context.scale(dpr, dpr);
 
 context.lineCap = 'square';
-context.lineWidth = 2;
+context.lineWidth = 4;
 
 function draw(x, y, width, height) {
   var leftToRight = Math.random() >= 0.5;
